@@ -13,6 +13,8 @@ using MyoSharp.Discovery;
 using MyoSharp.Exceptions;
 using MyoSharp.Math;
 using MyoSharp.Poses;
+using EgmMyo;
+
 
 namespace EgmMyo
 {
@@ -43,6 +45,7 @@ namespace EgmMyo
         public double MinMyo6 = -229;
         public const int NUMBER_OF_SENSORS = 8;
         #endregion
+        
         Sensor abbSensor = null;
         OrientationDataEventArgs myoOrient = null;
         static EventWaitHandle _waitHandle = new AutoResetEvent(false);

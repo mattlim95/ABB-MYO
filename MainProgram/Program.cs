@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
 using abb.egm;
+using EgmMyo;
 
-namespace EgmMyo
-{
+namespace EgmMyo {
     class Program
     { // listen on an assigned port for inbound messages
         public static int IpPortNumber = 6510; //6510
