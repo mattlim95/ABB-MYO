@@ -8,6 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
+using abb.egm;
 
 namespace EgmMyo
 {
